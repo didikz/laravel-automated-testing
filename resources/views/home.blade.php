@@ -6,7 +6,7 @@
 			<section class="panel">
 				<div class="panel-body">
 					<div class="well well-lg">
-						<h2 class="text-center">Welcome aboard Johndoe@mail.com</h2>
+						<h2 class="text-center">Welcome aboard {{ auth()->user()->email }}</h2>
 					</div>
 				</div>
 			</section>
