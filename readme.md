@@ -15,6 +15,14 @@ Testing your application is needed to ship better quality code, maintenable, and
 + run `php artisan key:generate`
 + run `php artisan migrate:install`
 + run `php artisan migrate`
++ run `php artisan db:seed`
 + run `/vendor/bin/phpunit` for running tests
+
+## Authentication
+
+You may login as administrator using credential:
+
++ email : `admin@testing.com`
++ password: `rahasia` 
 
 
